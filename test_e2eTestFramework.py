@@ -26,3 +26,4 @@ def test_e2e(browserInstance,test_list_item):
     checkout_confirmation.checkout()
     checkout_confirmation.enter_delivery_address("ind")
     checkout_confirmation.validate_order()
+    print("Completed test")
