@@ -29,3 +29,4 @@ def test_e2e(browserInstance,test_list_item):
     checkout_confirmation.validate_order()
     print("Completed test")
     print("Can be available for new test")
+    print("Let me know if you want to update anything.")
