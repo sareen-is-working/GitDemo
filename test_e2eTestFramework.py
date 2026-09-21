@@ -15,6 +15,7 @@ with open(test_data_path) as f:
 @pytest.mark.smoke
 @pytest.mark.parametrize("test_list_item",test_list)
 def test_e2e(browserInstance,test_list_item):
+    print("Starting test")
     driver = browserInstance
     driver.get("https://rahulshettyacademy.com/loginpagePractise/")
     loginpage = LoginPage(driver)
