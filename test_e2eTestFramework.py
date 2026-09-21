@@ -28,3 +28,4 @@ def test_e2e(browserInstance,test_list_item):
     checkout_confirmation.enter_delivery_address("ind")
     checkout_confirmation.validate_order()
     print("Completed test")
+    print("Can be available for new test")
